@@ -5,19 +5,19 @@ const products = [
     id: 1,
     name: "Laptop Gamer",
     price: 3200,
-    image: "https://via.placeholder.com/300"
+    image: "public/imgs/lap.webp"
   },
   {
     id: 2,
     name: "Mouse Inalámbrico",
     price: 49,
-    image: "https://via.placeholder.com/300"
+    image: "public/imgs/mosue.webp"
   },
   {
     id: 3,
     name: "Teclado Mecánico RGB",
     price: 150,
-    image: "https://via.placeholder.com/300"
+    image: "public/imgs/tecladoss.jfif"
   }
 ];
 

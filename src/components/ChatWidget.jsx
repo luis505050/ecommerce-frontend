@@ -11,7 +11,7 @@ export default function ChatWidget() {
     const userMsg = { sender: "user", text: input };
     setMessages([...messages, userMsg]);
 
-    const res = await fetch("http://localhost:3000/api/chat", {
+    const res = await fetch("http://localhost:4000/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: input })
